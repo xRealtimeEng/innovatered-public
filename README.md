@@ -1,21 +1,22 @@
 # innovateRED (public)
 
-**Realtime Engineering and Development** — public docs mirror only.
+**Docs + public APIs only** — no application source (no website frontend, no RPS).
 
-This repository is intentionally **limited**. It does **not** contain application source (no website frontend, no RPS, no private IP).
+This repo mirrors what we publish for partners to **call our public tools**, the same surface documented on the live site:
 
-## Live sites
+- APIs catalog: [https://www.innovatered.com/apis](https://www.innovatered.com/)
+- Detailed route docs: [`docs/API.md`](docs/API.md)
 
-- Company site: [https://www.innovatered.com](https://www.innovatered.com)
-- RPS planning demo: [https://rps.innovatered.com](https://rps.innovatered.com)
+## Live
 
-## Public API (shared auth / contact demo)
+| What | URL |
+|------|-----|
+| Website | https://www.innovatered.com |
+| RPS demo | https://rps.innovatered.com |
+| Public API | https://red-api-8w9g.onrender.com |
+| API source | https://github.com/xRealtimeEng/innovatered-api |
 
-- Repo: [xRealtimeEng/innovatered-api](https://github.com/xRealtimeEng/innovatered-api)
-- Service: [https://red-api-8w9g.onrender.com](https://red-api-8w9g.onrender.com)
-- Health: `GET /health`
-
-Application source and internal IP stay in private repositories.
+Private IP and full product source stay in private repos.
 
 ## Contact
 
