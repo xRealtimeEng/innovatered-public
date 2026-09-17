@@ -1,0 +1,51 @@
+/* RED visual system v3.1 — Brandi Brand Guide v1.0 palette (canonical) + industrial chrome */
+:root {
+  --red: #c8102e;
+  --navy: #0b1c2d;
+  --gold: #f2a900; /* hairlines / values on dark; not a second accent brand */
+  --warm-paper: #faf8f5;
+  --slate: #3d4f61;
+  --rule-bronze: #d4c4b0;
+  --hero: #0b1c2d;
+  --heading: #ffffff;
+  --kicker: #d9d9d9;
+  --body: #3d4f61;
+  --body-on-dark: #d9d9d9;
+  --muted: #a6a6a6;
+  --heat: #f35345; /* photography lighting reference only — not UI chrome */
+  --color-primary: #c8102e;
+  --color-accent: #c8102e; /* was neon lime; do not restore #39ff14 */
+  --bg: #0b1c2d;
+  --surface: #122536;
+  --text: #ffffff;
+  --border: #c8102e;
+  --card: #122536;
+
+  /* Industrial chrome (Ben 2026-09-15) — does NOT replace page navy */
+  --gunmetal: #2a3439;
+  --gunmetal-deep: #1a1f24;
+  --gunmetal-elevated: #343b44;
+  --ink: #0a0c0e; /* deepest chrome strips / footer edge */
+  --nav-bg: var(--gunmetal-deep);
+  --nav-border: rgba(200, 16, 46, 0.45);
+
+  /* Look B — Mesh glass (glass-pro deepen: drawers + header family) */
+  --glass-fill: rgba(255, 255, 255, 0.10);
+  --glass-blur: 16px;
+  --glass-shadow: 0 12px 40px rgba(0, 0, 0, 0.45);
+
+  /* Motion */
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --drawer-duration: 240ms;
+
+  /* Type scale — kickers */
+  --kicker-size: 0.7rem;
+  --kicker-tracking: 0.14em;
+
+  /* Viewport tiers (document for JS/CSS; use numeric values in @media —
+     CSS custom properties are not reliably usable inside @media queries) */
+  --bp-phone-max: 639px;
+  --bp-tablet-min: 640px;
+  --bp-tablet-max: 1023px;
+  --bp-desktop-min: 1024px;
+}
