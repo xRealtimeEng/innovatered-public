@@ -1,43 +1,22 @@
-# innovatered-public
+# innovateRED (public)
 
-**Limited public** mirror of the RED marketing / brochure frontend only.
+**Realtime Engineering and Development** — public docs mirror only.
 
-This is **not** the full product monorepo. Full **RPS**, internal tooling, and private backend IP stay private:
+This repository is intentionally **limited**. It does **not** contain application source (no website frontend, no RPS, no private IP).
 
-- Private monorepo: https://github.com/xRealtimeEng/innovatered *(private)*
-- Shared public API: https://github.com/xRealtimeEng/innovatered-api
-- Production API base URL: `https://red-api-8w9g.onrender.com`
+## Live sites
 
-Azure DevOps (`REDevOps/RedWeb`, `REDevOps/RPS`) remains the deploy source of truth for Cloudflare Pages unless Ben switches remotes.
+- Company site: [https://www.innovatered.com](https://www.innovatered.com)
+- RPS planning demo: [https://rps.innovatered.com](https://rps.innovatered.com)
 
-## What’s included
+## Public API (shared auth / contact demo)
 
-Vite + React + TypeScript brochure site (from RedWeb `frontend/`), including `public/` assets needed to build.
+- Repo: [xRealtimeEng/innovatered-api](https://github.com/xRealtimeEng/innovatered-api)
+- Service: [https://red-api-8w9g.onrender.com](https://red-api-8w9g.onrender.com)
+- Health: `GET /health`
 
-## What’s not included
+Application source and internal IP stay in private repositories.
 
-- Full RPS application
-- Flask backend / secrets / databases
-- `.env*` production secrets (see `.env.example` only)
+## Contact
 
-## Build
-
-```bash
-npm install
-npm run build
-# or: npm run dev
-```
-
-### Environment
-
-Copy `.env.example` and set:
-
-```bash
-VITE_API_URL=https://red-api-8w9g.onrender.com
-```
-
-For local API work, point `VITE_API_URL` at your local Flask (default in `.env.example`: `http://127.0.0.1:8000`).
-
-## Branch
-
-`main` only — public limited surface.
+[ben.marum@innovatered.com](mailto:ben.marum@innovatered.com)
